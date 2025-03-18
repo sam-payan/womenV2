@@ -45,8 +45,8 @@ export default function Page() {
       </TouchableOpacity>
       <Text style={{ marginTop: 20 }}>
         Don't have an Account?{" "}
-        <Link style={{ color: "blue" }} href={"/register"}>
-          Reigster
+        <Link style={{ color: "blue" }} href={"/dashboard"}>
+          Sign In
         </Link>
       </Text>
       <StatusBar style="auto" />

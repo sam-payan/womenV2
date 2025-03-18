@@ -37,7 +37,7 @@ export default function Page() {
             style={[globals.textCenter, globals.textWhite]}
           >
             Verify
-          </Link>
+          </Link >
         </TouchableOpacity>
       </View>
 

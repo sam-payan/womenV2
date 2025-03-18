@@ -21,7 +21,7 @@ export default function Page() {
           <Text style={globals.textCenter}>Job Holder</Text>
         </TouchableOpacity>
         <TouchableOpacity style={globals.btn}>
-          <Text style={globals.textCenter}>Collage Student</Text>
+          <Text style={globals.textCenter}>College Student</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={[globals.btn, globals.btnBlack, { marginTop: 100 }]}

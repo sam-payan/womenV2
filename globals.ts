@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native"
+import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
   bgImg: {
@@ -14,6 +14,7 @@ export default StyleSheet.create({
   },
   textCenter: {
     textAlign: "center",
+    fontSize: 15,
   },
   gap: {
     gap: 10,
