@@ -7,9 +7,9 @@ import {Link} from "expo-router";
 const VolunteerScreen = () => {
   return (
     <View style={styles.container}>
-      {/* Profile Section */}
+    
       <View style={styles.profileContainer}>
-        <Avatar.Image source={{ uri: 'https://via.placeholder.com/50' }} size={50} />
+        <Avatar.Image source={{ uri: "../assets/sumit.png" }} size={50} />
         <Avatar.Icon icon="account" size={50} style={styles.icon} />
       </View>
 

@@ -6,7 +6,7 @@ import {Link} from "expo-router";
 const TrackScreen = () => {
   return (
     <View style={styles.container}>
-      {/* Location Info */}
+      
       <Card style={styles.locationCard}>
         <Text>📍 Your current location</Text>
       </Card>
@@ -14,25 +14,22 @@ const TrackScreen = () => {
         <Text>📍 Your selected location</Text>
       </Card>
 
-      {/* Map View */}
+      
       <MapView
         style={styles.map}
         initialRegion={{
-          latitude: 22.5726, // Example latitude
-          longitude: 88.3639, // Example longitude
+          latitude: 22.5726, 
+          longitude: 88.3639, 
           latitudeDelta: 0.05,
           longitudeDelta: 0.05,
         }}
       >
         <Marker coordinate={{ latitude: 22.5726, longitude: 88.3639 }}>
-          <Image
-            source={{ uri: "https://example.com/avatar.png" }} // Replace with actual image
-            style={styles.markerImage}
-          />
+          
         </Marker>
       </MapView>
 
-      {/* Status Buttons */}
+      
       <View style={styles.statusContainer}>
         <Button mode="contained" style={styles.sosButton}>
           🚨 Automatic SOS: ON
