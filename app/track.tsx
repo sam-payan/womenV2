@@ -47,16 +47,20 @@ const TrackScreen = () => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#F5F5F5", padding: 10 },
+  container: { flex: 1, backgroundColor: "#F5F5F5", padding: 10,paddingTop:80 },
   locationCard: {
-    backgroundColor: "white",
+    backgroundColor: "transparent",
+    borderColor: "black",
+    borderWidth: 1,
     padding: 10,
     borderRadius: 10,
     marginVertical: 5,
+    marginTop: 10,
+    
   },
   map: { width: "100%", height: 300, marginVertical: 10 },
   markerImage: { width: 50, height: 50, borderRadius: 25 },
-  statusContainer: { alignItems: "center", marginTop: 10 },
+  statusContainer: { alignItems: "center", marginTop: 30, gap: 10, borderColor: "black" },
   sosButton: { backgroundColor: "red", width: "90%", marginBottom: 5 },
   confirmedButton: { backgroundColor: "green", width: "90%", marginBottom: 5 },
   backButton: { backgroundColor: "black", width: "90%" },

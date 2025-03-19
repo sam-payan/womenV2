@@ -17,7 +17,7 @@ export default function Page() {
   const { push } = useRouter();
 
   const handleSignIn = () => {
-    push("/welcome"); 
+    push("/dashboard"); 
   };
 
   return (
@@ -45,7 +45,7 @@ export default function Page() {
         onPress={handleSignIn}
         style={[globals.btn, globals.btnBlack, { marginTop: 20 }]}
       >
-        <Text style={[globals.textCenter, globals.textWhite]}>  <Link href="/welcome">Sign In</Link></Text>
+        <Text style={[globals.textCenter, globals.textWhite]}>  <Link href="/dashboard">Sign In</Link></Text>
       </TouchableOpacity>
 
       <Text style={{ marginTop: 20 }}>
@@ -64,7 +64,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#F6F6F6",
-    padding: 20,
+    padding: 30,
     justifyContent: "center",
   },
 });
+
