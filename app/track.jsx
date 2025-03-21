@@ -6,15 +6,6 @@ import {Link} from "expo-router";
 const TrackScreen = () => {
   return (
     <View style={styles.container}>
-      
-      <Card style={styles.locationCard}>
-        <Text>📍 Your current location</Text>
-      </Card>
-      <Card style={styles.locationCard}>
-        <Text>📍 Your selected location</Text>
-      </Card>
-
-      
       <MapView
         style={styles.map}
         initialRegion={{

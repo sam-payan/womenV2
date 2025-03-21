@@ -1,10 +1,11 @@
+
 import React from 'react';
 import { View, StyleSheet, Image } from 'react-native';
 import { Avatar, Button, Text, Card } from 'react-native-paper';
 import MapView, { Marker } from 'react-native-maps';    
 import {Link} from "expo-router";
 
-const VolunteerScreen = () => {
+const HelpTab = () => {
   return (
     <View style={styles.container}>
     
@@ -80,4 +81,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default VolunteerScreen;
+export default HelpTab;
